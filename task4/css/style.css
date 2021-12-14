@@ -1,0 +1,117 @@
+body {
+    background-color: #0e0e0e;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 88%;
+    margin: 0 6rem;
+    overflow: hidden;
+   
+   
+}
+.home_section__header{
+    background-image: url('../images/header-bg.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+   
+}
+.header_Section{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+}
+nav{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logo{
+    margin-top: .4rem;
+}
+.navbar__links a{
+    display: inline-block;
+    padding: .6rem 1rem;
+    color: #ebebebec;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+}
+
+/* home section start */
+
+.home__section{
+    color: #ffffff;
+    display: flex;
+}
+.home__section__journey{
+    margin: 10rem 1rem;
+}
+.home__section__journey{
+    margin: 10rem 1rem;
+}
+.home__section__journey__royal{
+    letter-spacing: .2rem;
+}
+.home__section__journey h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: .7rem;
+}
+.home__section__journey p{
+    width: 90%;
+    color: #ebebebec;
+    margin-top: 0;
+    line-height: 1.4rem;
+}
+.home__section__button{
+    background-color: #F9B700;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    border: none;
+    font-weight:600 ;
+    margin-top: 1rem;
+}
+
+.home__section__book{
+    border: 1px solid #353C4B;
+    background-color: rgba(0, 0, 255, 0.05);
+    width: 60%;
+    margin-top: 1rem;
+}
+.home__section__book__item{
+    padding: 2rem 3rem;
+}
+.select__car, .name, .email, .phone, .select__pick{
+    width: 100%;
+    padding: .8rem ;
+    color:#757575;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    border: none;
+}
+.select__pick{
+    width: 100%;
+    padding: .8rem ;
+    color:#757575;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    border: none;
+}
+.date_time{
+    width: 50%;
+    padding: .8rem ;
+    color:#757575;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    border: none;
+}
+table{
+    width: 100%;
+}
