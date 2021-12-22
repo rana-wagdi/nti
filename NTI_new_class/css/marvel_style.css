@@ -1,0 +1,197 @@
+
+/*----------------------------start of navbar------------------*/
+.navbar{
+	margin: 20px 0px;
+}
+.navbar .container{
+	overflow: unset;
+	height: 45px;
+}
+.navbar .logo , .navbar .list , .navbar .mode{
+	float: left;
+}
+.navbar .logo{
+	width: 20%;
+}
+.navbar .logo a{
+	text-decoration: none;
+    color: black;
+    font-size: 36px;
+}
+.navbar .logo a span{
+	
+}
+.navbar .logo a span:first-of-type{
+	
+}
+.navbar .logo a span:last-of-type{
+	
+}
+.navbar .list{
+	margin-top: 14px;
+    width: 55%;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar .list > ul{
+	
+}
+.navbar .list > ul > li{
+	display: inline-block;
+    margin-right: 20px;
+}
+.navbar .list > ul > li > a{
+	font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+.navbar .list > ul > li > ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+.navbar .list > ul > li:hover ul{
+	display: block;
+}
+.navbar .list > ul > li > ul > li{
+	
+}
+.navbar .list > ul > li > ul > li a{
+	color: red;
+	text-decoration: none;
+}
+
+.navbar .mode{
+	width: 25%;
+}
+.navbar .mode h2{
+	text-align: right;
+	margin-top: 10px;
+    margin-bottom: 0;
+}
+.navbar .mode h2 span:first-of-type{
+	
+}
+
+
+
+/*----------------------------end of navbar------------------*/
+/*----------------------------start of about------------------*/
+.about{
+	
+}
+.about .info , .about .image{
+	width: 50%;
+	float: left;
+}
+.about .info h1{
+	font-size: 42px;
+}
+.about .info h3{
+	color: gray;
+}
+.about .info p{
+    color: gray;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.about .info a{
+    background-color: gray;
+    margin-right: 10px;
+    padding: 13px 28px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.about .info a:first-of-type{
+    background-color: #ddd;
+    color: black;
+}
+.about .info a span{
+	
+}
+.about .image{
+	
+}
+.about .image img{
+    height: 270px;
+    display: block;
+    margin-left: auto;
+}
+/*----------------------------end of about------------------*/
+/*--------------------------start of education------------------*/
+.education{
+    
+}
+.education .left{
+    width: 50%;
+    float: left;
+}
+.education .left .info{
+    overflow: hidden;
+}
+.education .left .info .circle{
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border-radius: 50%;
+    float: left;
+    margin-top: 18px;
+	position: relative;
+}
+.education .left .info:not(:last-of-type) .circle::before{
+	content: '';
+    display: block;
+    width: 3px;
+    height: 41px;
+    background-color: gray;
+    position: absolute;
+    bottom: -40px;
+    left: 48%;
+}
+
+
+.education .left .info .circle p{
+    margin: 0;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 25px;
+    color: white;
+}
+.education .left .info .data{
+    float: left;
+    width: calc(100% - 100px);
+    margin-left: 20px;
+}
+.education .left .info .data h2{
+    
+}
+.education .left .info .data h2 span:first-of-type{
+    
+}
+.education .left .info .data h2 span:last-of-type{
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+
+
+
+/*--------------------------end of education------------------*/
+
+/*-------------------------start of public classes------------*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+/*-------------------------end of public classes--------------*/

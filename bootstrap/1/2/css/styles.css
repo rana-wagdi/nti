@@ -1,0 +1,28 @@
+header{
+    background: #009688;
+}
+header nav{
+
+}
+
+
+header .content .image img{
+    width: 100%;
+    animation-name: movment;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    top: 0px;
+}
+
+
+
+@keyframes movment{
+    from{
+        top:30px;
+    }
+    to{
+        top: -30px;
+    }
+}
